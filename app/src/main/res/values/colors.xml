@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="green">#16C61E</color>
+    <color name="yellow">#FAE215</color>
+    <color name="orange">#FF5722</color>
+    <color name="red">#F60808</color>
+    <color name="purple">#8C56EA</color>
+    <color name="blue">#0B2CE3</color>
+    <color name="questionOne">#CEEFC9</color>
+    <color name="questionTwo">#9FC670</color>
+    <color name="questionThree">#4CAF50</color>
+    <color name="questionFour">#27882B</color>
+    <color name="questionFive">#0D6310</color>
+</resources>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="8dp"
+    android:background="@color/questionOne"
+    android:orientation="vertical"
+    tools:context=".ActivityQuestionOne">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/questionOneTB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="20dp"
+        android:textAlignment="center"
+        android:titleTextColor="@color/black" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="4dp"
+        android:text="@string/replyOne"
+        android:textSize="20sp" />
+
+    <RadioGroup
+        android:id="@+id/answersOneRG"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/answersOneTitleTV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="4dp"
+            android:text="@string/answersTitle"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/replyOneRB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="radioButtonClick"
+            android:text="@string/answersOneReplyOne"
+            android:textSize="16sp" />
+
+        <RadioButton
+            android:id="@+id/replyTwoRB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="radioButtonClick"
+            android:text="@string/answersOneReplyTwo"
+            android:textSize="16sp" />
+
+        <RadioButton
+            android:id="@+id/replyThreeRB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="radioButtonClick"
+            android:text="@string/answersOneReplyThree"
+            android:textSize="16sp" />
+
+    </RadioGroup>
+
+
+</LinearLayout>

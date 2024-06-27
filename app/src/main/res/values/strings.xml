@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">historianHW</string>
+    <string name="program_title">Добро пожаловать на викторину:\nИстория отечества.\nПроверь свои знания.</string>
+    <string name="start_button">Жми сюда\nЧтобы начать</string>
+    <string name="answersTitle">Выберете вариант ответа.</string>
+    <string name="answersOneReplyOne">Начало X века</string>
+    <string name="answersOneReplyTwo">Середина X века</string>
+    <string name="answersOneReplyThree">Конец X века</string>
+    <string name="answersTwoReplyOne">5 апреля 1242 года</string>
+    <string name="answersTwoReplyTwo">17 марта 1240 года</string>
+    <string name="answersTwoReplyThree">19 сентября 1456 года</string>
+    <string name="answersThreeReplyOne">Петром III</string>
+    <string name="answersThreeReplyTwo">Павлом I</string>
+    <string name="answersThreeReplyThree">Петром I</string>
+    <string name="answersFourReplyOne">1 сентября 1939 года</string>
+    <string name="answersFourReplyTwo">22 июня 1945 года</string>
+    <string name="answersFourReplyThree">22 июня 1941 года</string>
+    <string name="answersFiveReplyOne">Герман Степанович Титов</string>
+    <string name="answersFiveReplyTwo">Юрий Алексеевич Гагарин</string>
+    <string name="answersFiveReplyThree">Алексей Архипович Леонов</string>
+    <string name="replyOne">Первое письменное упоминание названия Россия.</string>
+    <string name="replyTwo">Когда произошла великая битва на Чудском озере (она же - ледовое побоище)</string>
+    <string name="replyThree">Кем была создана Российская империя</string>
+    <string name="replyFour">Когда началась Великая отечественная война</string>
+    <string name="replyFive">Первый человек в космосе.</string>
+    <string name="exit">Выход</string>
+</resources>
